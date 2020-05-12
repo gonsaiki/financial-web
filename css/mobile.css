@@ -1,0 +1,102 @@
+/* Section : What We Do*/
+#what .items{
+  display: block;
+}
+
+#what .items .item{
+  display: flex;
+  text-align: left;
+}
+
+/* Position icon */
+#what .items .item i{
+  margin-right: 1.3rem;
+  align-self: center;
+}
+
+/* Smartphone */
+@media(max-width: 500px){
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #navbar .logo{
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+
+  #who{
+    display: block;
+  }
+
+  #who .who-img{
+    display: none;
+  }
+
+  #client .items img{
+    width: 80%;
+  }
+
+  #client .items div:last-child{
+    display: none;
+  }
+
+  #contact{
+    flex-direction: column;
+  }
+
+  #contact .map{
+    display: none;
+  }
+}
+@media(max-height:568px){
+  .l-heading{
+    font-size: 3rem;
+  }
+  .lead{
+    font-size: 1rem;
+  }
+}
+
+/* Above is Brad, he is pretty good */
+/* This below css is Mine */
+
+/* #navbar{
+  display: block;
+  text-align: center;
+}
+#navbar ul{
+  justify-content: center;
+  padding: 0.5rem;
+}
+#navbar ul li a{
+  margin: 0 0.25rem;
+}
+.who-img{
+  display: none;
+}
+.who-text{
+  line-height: 1.4rem;
+}
+#contact .map{
+  display: none;
+}
+.logo{
+  margin-bottom: 0.5rem;
+}
+#what .items{
+  display: block;
+}
+
+#what .items .item{
+  display: flex;
+  text-align: left;
+}
+
+#what .items .item i{
+  margin-right: 1.3rem;
+  align-self: center;
+} */
